@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {EJERCICIOS} from '../collection-ejercicios';
 
 @Component({
   selector: 'app-ejercicios',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EjerciciosComponent implements OnInit {
 
-  ejercicios = 'Angular es grande !!';
+  ejercicios = EJERCICIOS;
+
 
   constructor() { }
 
